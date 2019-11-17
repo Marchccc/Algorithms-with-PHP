@@ -60,8 +60,8 @@ class Application
 			}
 		}
 
-		$left = quick($left);
-		$right = quick($right);
+		$left = $this->Quicksort($left);
+		$right = $this->Quicksort($right);
 		return array_merge($left, [$middle], $right);
 	}
 }
