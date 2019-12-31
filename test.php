@@ -1,8 +1,8 @@
 <?php
 
-require_once('./Factory.php');
+require_once './Factory.php';
 
-# Sort
+// Sort
 
 $array = [2, 4, 3, 5, 1, 9, 6];
 

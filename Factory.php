@@ -32,7 +32,7 @@ class Factory
     public static function loadClass($class)
     {
         $class = str_replace('\\', '/', $class);
-        $class = "./" . $class . ".php";
+        $class = './'.$class.'.php';
         require_once $class;
     }
 }
